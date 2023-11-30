@@ -1,0 +1,22 @@
+{
+  "name": "gradio_tags",
+  "version": "0.4.4",
+  "description": "Gradio UI packages",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "private": false,
+  "main_changeset": true,
+  "main": "Index.svelte",
+  "exports": {
+    ".": "./Index.svelte",
+    "./example": "./Example.svelte",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@gradio/atoms": "0.3.0",
+    "@gradio/icons": "0.3.0",
+    "@gradio/statustracker": "0.4.0",
+    "@gradio/utils": "0.2.0"
+  }
+}
